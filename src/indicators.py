@@ -12,3 +12,9 @@ class Indicators:
     def ema(data: pd.Series, window: int) -> pd.Series:
         ema = data.ewm(span=window, adjust=False).mean()
         return ema
+
+    @staticmethod
+    def atr(high: pd.Series, low: pd.Series, window: int = 5) -> pd.Series:
+        hl = high - low
+        atr = hl.rolling(window=window).mean()
+        return atr

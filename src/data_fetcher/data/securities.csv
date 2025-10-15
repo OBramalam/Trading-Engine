@@ -1,0 +1,11 @@
+﻿ticker,name,listed,asset_class,country,datasource,datasource_ticker
+AAPL,Apple Inc,TRUE,equity,USA,yfinance,AAPL
+META,Meta Platforms,TRUE,equity,USA,yfinance,META
+NVDA,Nvdia,TRUE,equity,USA,yfinance,NVDA
+PLTR,Palantir,TRUE,equity,USA,yfinance,PLTR
+NZDUSD,NZDUSD,TRUE,currency,n/a,yfinance,NZDUSD=X
+MSTR,Microstrategy,TRUE,equity,USA,yfinance,MSTR
+BTC,Bitcoin,TRUE,currency,n/a,yfinance,BTC-USD
+IAU,iShares Gold Trust,TRUE,etf,USA,yfinance,IAU
+RING,iShares MSCI Global Gold Miners ETF,TRUE,etf,USA,yfinance,RING
+SP500,S&P 500,TRUE,equity,USA,yfinance,^GSPC
